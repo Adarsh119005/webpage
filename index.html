@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web by Aadi</title>
+    <script src="https://kit.fontawesome.com/63c37600c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web  Developer</p>
+                <h1>Hi, I'm <span>Adarsh</span><br/>Upadhyay from U.P.</h1>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-------------------------ABOUT ME----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/[removal.ai]_ee43b3bc-20ca-4aff-803b-b5be791b7287-imag.png">
+                </div>
+                
+
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>Hi my name is ADARSH a dedicated backend developer with a strong foundation
+                         in SQL, Python, cloud computing, and JavaScript, with a touch of CSS expertise 
+                         My passion lies in creating a scalable frontend and backend systems that power 
+                         seamless user experiences. With a keen eye for detail and a drive for continuous 
+                         learning, I strive to stay updated with the latest technologies and best practices 
+                         in the industry. Explore my portfolio to see the projects I've worked on and how I 
+                         can help bring your ideas to life.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Backend Developer</span><br>Designing backend database</li>
+                                <li><span>Web Developer</span><br>Designing flexible and scalable websites</li>
+                                <li><span>Cloud Computing</span><br>Server management and also worked on cmd line</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024-Current</span><br>Making project as freelincer</li>
+                                <li><span>2022-2023</span><br>Summer training in TCYbill learn Python,JavaScript,html and css</li>
+                               
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Self learned</span><br>DBMS USING MYSQL, Xcel, phpmyadmin</li>
+                                <li><span>2021-2024</span><br>CS Diploma from MJPGP Collage Kaushambi</li>
+                                <li><span>2022-2023</span><br>Summer training in TCYbill learn Python,JavaScript,html and css </li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------------------------------------SERVICES-------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h1>Web Development Project</h1>
+                <p>Create a web application using HTML,
+                 CSS and Javascript for the frontend, Python
+                 (with the framework like Flask or Django) for 
+                 the backend, and MySQL for the databases.</p><br>
+                 <a href="#" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h1>Data Project</h1>
+                <p>Showcase your ability to design,
+                     impliment and manage database with MySQL.</p><br>
+                 <a href="#" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h1>Cloud Computing Projects</h1>
+                <p>Create and showcase architectures for scalable 
+                    and resilient applications using cloud services.</p><br>
+                 <a href="#" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------PORTFOLIO------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/webdevelop.jpg">
+                <div class="layer">
+                    <h3>Full Stack Website</h3>
+                    <p>Website Name is Admission system which you can 
+                        admission your children or yourself of collage.
+                    </p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/bg3.jpg">
+                <div class="layer">
+                    <h3>templates</h3>
+                        <p>We are creating templates of blog and for others website.
+                        </p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/db.jpg">
+                <div class="layer">
+                    <h3>Database</h3>
+                        <p>We can create database according to website purpose.
+                        </p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+
+<!------------------------------------------CONTACT------------------------------------------------------------------------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  aa7905137620@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  7388641043, 9532864006</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/_adarshupadhyay_6724/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100092383879773" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/Biodata-1701669173.pdf" class="btn btn2" target="_blank">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Wmail" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn3 btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © ID Adarsh </p>
+    </div>
+</div>
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+            function opentab(tabname){
+            for( let tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(let tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu"); 
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx7_CkkaPhk2X1uVa9XRoJ8ZeUeocKwLCXopjYlh4ewkA4Ds2xFnBDnIwFgr-OAHn3o/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Messages Sent Successfuly"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
